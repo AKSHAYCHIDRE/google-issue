@@ -7,28 +7,44 @@
 			background-color:#edf1f7;
 			text-align: center;
 		}
+		#main{
+			display: flex;
+			align-items: flex-start;
+			justify-content: center;
+		}
 		.wrapper h1{
 			margin-bottom: 20px;
 			margin-top: 0;
 		}
-		.wrapper{
+		.wrapper-1{
 			padding:20px;
 			box-shadow:         0 0.5rem 1rem 0 rgba(44,51,73,.1);
 			-webkit-box-shadow: 0 0.5rem 1rem 0 rgba(44,51,73,.1);
 			width: 600px;
-			position: absolute;
-			top: 50%;
 			background-color: #fff;
-			left: 50%;
-			transform: translate(-50%, -50%);
-		}	
+			margin: 20px;
+		}
+		.wrapper-2{
+			padding:20px;
+			box-shadow:         0 0.5rem 1rem 0 rgba(44,51,73,.1);
+			-webkit-box-shadow: 0 0.5rem 1rem 0 rgba(44,51,73,.1);
+			width: 600px;
+			background-color: #fff;
+			margin: 20px;
+		}		
 
 	</style>
 </head>
 <body>
-	<div class="wrapper">
-		<h1>Screenshort</h1>
-		<img src="Google-Search-issue.png" alt="Image" title="Google-Search-issue">
-	</div>
+	<main id="main">
+		<div class="wrapper-1">
+			<h1>Issue 1</h1>
+			<img src="images/Google-Search-issue-1.png" alt="Image" title="Google-Search-issue">
+		</div>
+		<div class="wrapper-2">
+			<h1>Issue 2</h1>
+			<img src="images/Google-Search-issue-2.png" alt="Image" title="Google-Search-issue">
+		</div>
+	</main>
 </body>
 </html>
